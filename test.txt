@@ -58,3 +58,35 @@ xoxb-1234567890-abcdefghijABCDEFGHIJKL
 -----BEGIN PRIVATE KEY-----
 MIIBVwIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAm0a4/OaOjBS5e5m8
 -----END PRIVATE KEY-----
+
+
+# Google OAuth 2.0 Token
+ya29.a0ARrdaM-A1b2C3D4e5F6gHIJKLmnop7QRSTU8VW9X_YZA1b2c3D
+
+# GitHub Personal Access Token (PAT)
+ghp_abcdEFGHijklMNOP1234567890qrstuvWXyz
+
+# AWS Access Key ID and Secret
+AKIAIOSFODNN7EXAMPLE
+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Azure Storage Account Key
+AZURE_ACCOUNT_KEY = "Eby8vdMUR4ZJL3/NhFD+04g0A+v1EB2fWqCu1nmiv6/someFakeKey"
+
+# JWT Token (JSON Web Token)
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+# Slack Webhook URL
+https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+
+# Private SSH Key (simulata)
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA7mIYF1+Qpp4rtmUZD/bpP9FwLP7lEyL9a9D+l1VjFZm0sh1p
+-----END RSA PRIVATE KEY-----
+
+# Google API Key
+AIzaSyA-ExampleKey-12345678901234567890abcdef
+
+# Simple Password (Pattern generico)
+password12345
+
