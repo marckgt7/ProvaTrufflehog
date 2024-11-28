@@ -2,7 +2,59 @@ aws_access_key_id=AKIAIOSFODNN7EXAMPLE
 aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 github_api_key=ghp_16characterstringEXAMPLE
 
-  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"allShortcutsEnabled":true,"fileTree":{"1st YEAR/CLOUD COMPUTING":{"items":[{"name":"oral-questions","path":"1st YEAR/CLOUD COMPUTING/oral-questions","contentType":"directory"},{"name":"project-specifications","path":"1st YEAR/CLOUD COMPUTING/project-specifications","contentType":"directory"},{"name":"2023-02-09_lecture-notes-21-22-Cloud-Computing_Giacomo-Pacini.docx","path":"1st YEAR/CLOUD COMPUTING/2023-02-09_lecture-notes-21-22-Cloud-Computing_Giacomo-Pacini.docx","contentType":"file"},{"name":"2023-02-09_lecture-notes-21-22-Cloud-Computing_Giacomo-Pacini.pdf","path":"1st YEAR/CLOUD COMPUTING/2023-02-09_lecture-notes-21-22-Cloud-Computing_Giacomo-Pacini.pdf","contentType":"file"},{"name":"README.md","path":"1st YEAR/CLOUD COMPUTING/README.md","contentType":"file"},{"name":"Vallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","path":"1st YEAR/CLOUD COMPUTING/Vallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","contentType":"file"},{"name":"oral-questions.md","path":"1st YEAR/CLOUD COMPUTING/oral-questions.md","contentType":"file"}],"totalCount":7},"1st YEAR":{"items":[{"name":"BUSINESS AND PROJECT MGMT","path":"1st YEAR/BUSINESS AND PROJECT MGMT","contentType":"directory"},{"name":"CLOUD COMPUTING","path":"1st YEAR/CLOUD COMPUTING","contentType":"directory"},{"name":"DATA MINING","path":"1st YEAR/DATA MINING","contentType":"directory"},{"name":"LARGE SCALE AND MULTISTRUCTURED DATABASES","path":"1st YEAR/LARGE SCALE AND MULTISTRUCTURED DATABASES","contentType":"directory"},{"name":"OPTIMIZATION METHODS AND GAME THEORY","path":"1st YEAR/OPTIMIZATION METHODS AND GAME THEORY","contentType":"directory"}],"totalCount":5},"":{"items":[{"name":"1st YEAR","path":"1st YEAR","contentType":"directory"},{"name":"2nd YEAR","path":"2nd YEAR","contentType":"directory"},{"name":"GROUP A","path":"GROUP A","contentType":"directory"},{"name":"CONTRIBUTING.md","path":"CONTRIBUTING.md","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"}],"totalCount":5}},"fileTreeProcessingTime":3.683382,"foldersToFetch":[],"reducedMotionEnabled":"system","repo":{"id":656849636,"defaultBranch":"main","name":"AIDE-unipi","ownerLogin":"LucaArduini","currentUserCanPush":true,"isFork":true,"isEmpty":false,"createdAt":"2023-06-21T21:13:56.000+02:00","ownerAvatar":"https://avatars.githubusercontent.com/u/60453103?v=4","public":true,"private":false,"isOrgOwned":false},"refInfo":{"name":"main","listCacheKey":"v0:1687375157.134348","canEdit":true,"refType":"branch","currentOid":"a2a12aa4aecf2322561b78a201a9ea81ecf82465"},"path":"1st YEAR/CLOUD COMPUTING/Vallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","currentUser":{"id":60453103,"login":"LucaArduini","userEmail":"arduini37@gmail.com"},"blob":{"rawBlob":"","colorizedLines":null,"stylingDirectives":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":null,"configFilePath":null,"networkDependabotPath":"/LucaArduini/AIDE-unipi/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":false,"repoAlertsPath":"/LucaArduini/AIDE-unipi/security/dependabot","repoSecurityAndAnalysisPath":"/LucaArduini/AIDE-unipi/settings/security_analysis","repoOwnerIsOrg":false,"currentUserCanAdminRepo":true},"displayName":"Vallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","displayUrl":"https://viewscreen.githubusercontent.com/view/pdf?browser=chrome\u0026bypass_fastly=true\u0026color_mode=light\u0026commit=a2a12aa4aecf2322561b78a201a9ea81ecf82465\u0026device=unknown_device\u0026docs_host=https%3A%2F%2Fdocs.github.com\u0026enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4c75636141726475696e692f414944452d756e6970692f613261313261613461656366323332323536316237386132303161396561383165636638323436352f317374253230594541522f434c4f5544253230434f4d505554494e472f56616c6c6174695f32302d32315f4c6563747572655f4e6f7465732d546f6d6d61736f416d6172616e74652d45646f6172646f4d6f72756363692e706466\u0026logged_in=true\u0026nwo=LucaArduini%2FAIDE-unipi\u0026path=1st+YEAR%2FCLOUD+COMPUTING%2FVallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf\u0026platform=windows\u0026repository_id=656849636\u0026repository_type=Repository\u0026version=114","headerInfo":{"blobSize":"60.8 MB","deleteInfo":{"deletePath":"https://github.com/LucaArduini/AIDE-unipi/delete/main/1st%20YEAR/CLOUD%20COMPUTING/Vallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","deleteTooltip":"Delete this file"},"editInfo":{"editTooltip":"Edit this file"},"ghDesktopPath":"x-github-client://openRepo/https://github.com/LucaArduini/AIDE-unipi?branch=main\u0026filepath=1st%20YEAR%2FCLOUD%20COMPUTING%2FVallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","gitLfsPath":null,"onBranch":true,"shortPath":"90935b7","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2FLucaArduini%2FAIDE-unipi%2Fblob%2Fmain%2F1st%2520YEAR%2FCLOUD%2520COMPUTING%2FVallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":null,"truncatedSloc":null},"mode":"file"},"image":false,"isCodeownersFile":null,"isValidLegacyIssueTemplate":false,"issueTemplateHelpUrl":"https://docs.github.com/articles/about-issue-and-pull-request-templates","issueTemplate":null,"discussionTemplate":null,"language":null,"large":true,"loggedIn":true,"newDiscussionPath":"/LucaArduini/AIDE-unipi/discussions/new","newIssuePath":"/LucaArduini/AIDE-unipi/issues/new","planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/LucaArduini/AIDE-unipi/blob/main/1st%20YEAR/CLOUD%20COMPUTING/Vallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","dismissStackNoticePath":"/settings/dismiss-notice/publish_stack_from_file","releasePath":"/LucaArduini/AIDE-unipi/releases/new?marketplace=true","showPublishActionBanner":false,"showPublishStackBanner":false},"renderImageOrRaw":true,"richText":null,"renderedFileInfo":{"identityUUID":"e07049fb-fced-40a6-9bdb-45f76e6592a2","renderFileType":"pdf","size":63737038},"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"repoOwner":"LucaArduini","repoName":"AIDE-unipi","showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","showDependabotConfigurationBanner":null,"actionsOnboardingTip":null},"truncated":true,"viewable":false,"workflowRedirectUrl":null,"symbols":{"timedOut":true,"notAnalyzed":true,"symbols":[],"error":{"code":"invalid_argument","msg":"content must be present","meta":{"argument":"content"}}}},"csrf_tokens":{"/LucaArduini/AIDE-unipi/branches":{"post":"Z7EXO3Vz9KFsEqkP-Yb6XsW3ViJcjDeSVC51czGL9FVFCGif2KFG19IVSlTFJWkd29vtGMvn8toetuFTIwgUCA"}}},"title":"AIDE-unipi/1st YEAR/CLOUD COMPUTING/Vallati_20-21_Lecture_Notes-TommasoAmarante-EdoardoMorucci.pdf at main · LucaArduini/AIDE-unipi","locale":"en","appPayload":{"helpUrl":"https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-848bb9a5da17.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-f47a66bce6ac.js","githubDevUrl":"https://github.dev/","enabled_features":{"virtualize_file_tree":true,"react_repos_overview":false,"repos_new_shortcut_enabled":true,"blob_navigation_cursor":true,"code_nav_ui_events":false,"ref_selector_v2":false,"codeview_codemirror_next":true,"blob_firefox_separate_characters":true,"copilot_conversational_ux":false}}}</script>
-  <div data-target="react-app.reactRoot"></div>
-</react-app>
-</turbo-frame>
+  
+# Token GitHub (vero positivo)
+ghp_abcdEFGH12345678ijklMNOPqrstUVWXyZABC
+
+# Token AWS Access Key (vero positivo)
+AKIAIOSFODNN7EXAMPLE
+
+# Token AWS Secret Access Key (vero positivo)
+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+# Password hardcodata in chiaro (vero positivo)
+db_password=SuperSecret123
+
+# Token Google Cloud (vero positivo)
+ya29.a0ARrdaM-A1b2C3D4e5F6gHIJKLmnop7QRSTU8VW9X_YZA1b2c3D
+
+# Chiave privata SSH (vero positivo)
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAABG5vbmUAAAAABG5vbmUAAAAA
+-----END OPENSSH PRIVATE KEY-----
+
+# Stringa base64 sospetta (vero positivo)
+U29tZSBzZWNyZXQgc3RyaW5nIHZhbGlkYXJhLg==
+
+# Hash di password (vero positivo)
+$1$abc123$$W7yCV8/.LqG5a3bgx2kKL1  # MD5
+$2a$12$abc123ABCDEF5LqG5a3bgx2kKLLW7yCV8/.LqG5a3bgx2kKL1 # bcrypt
+
+# Token OAuth (vero positivo)
+xoxb-1234567890-abcdefghijABCDEFGHIJKL
+
+# Falso positivo (normale email)
+arduini37@gmail.com
+
+# Falso positivo (indirizzo IPv4 normale)
+192.168.1.1
+
+# Falso positivo (URL normale)
+http://example.com
+
+# Falso negativo (password offuscata con semplice encoding)
+ZGJfcGFzc3dvcmQ9U3VwZXJTZWNyZXQxMjM=  # db_password=SuperSecret123 (encoded)
+
+# Falso negativo (token JWT non valido)
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+# Token Stripe (vero positivo)
+sk_live_1234567890abcdef12345678
+
+# Token Slack (vero positivo)
+xoxb-1234567890-abcdefghijABCDEFGHIJKL
+
+# Certificato privato (vero positivo)
+-----BEGIN PRIVATE KEY-----
+MIIBVwIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAm0a4/OaOjBS5e5m8
+-----END PRIVATE KEY-----
