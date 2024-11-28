@@ -31,3 +31,22 @@ password12345
 
 # 10. Stripe API Key (aggiunto per testare se viene rilevato)
 sk_test_4eC39HqLyjWDarjtT1zdp7dc
+
+
+
+Detector: AWS Detector
+  True Positive: AKIAIOSFODNN7EXAMPLE
+  False Positive: AKIAthisisnotavalidkey1234
+
+Detector: SQL Server Detector
+  True Positive: Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;
+  False Positive: Server=myServerAddress;Database=myDataBase;
+
+Detector: GitHub Detector
+  True Positive: ghp_abcdefghijklmnopqrstuvwxyz1234567890
+  False Positive: ghp_notarealtokenhere
+
+Detector: Azure Detector
+  True Positive: DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=mykey;EndpointSuffix=core.windows.net
+  False Positive: DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=invalidkey
+
