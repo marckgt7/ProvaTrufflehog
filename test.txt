@@ -1,92 +1,33 @@
-aws_access_key_id=AKIAIOSFODNN7EXAMPLE
-aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-github_api_key=ghp_16characterstringEXAMPLE
-
-  
-# Token GitHub (vero positivo)
-ghp_abcdEFGH12345678ijklMNOPqrstUVWXyZABC
-
-# Token AWS Access Key (vero positivo)
-AKIAIOSFODNN7EXAMPLE
-
-# Token AWS Secret Access Key (vero positivo)
-wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-
-# Password hardcodata in chiaro (vero positivo)
-db_password=SuperSecret123
-
-# Token Google Cloud (vero positivo)
+# 1. Google OAuth 2.0 Token (già rilevato)
 ya29.a0ARrdaM-A1b2C3D4e5F6gHIJKLmnop7QRSTU8VW9X_YZA1b2c3D
 
-# Chiave privata SSH (vero positivo)
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAABG5vbmUAAAAABG5vbmUAAAAA
------END OPENSSH PRIVATE KEY-----
-
-# Stringa base64 sospetta (vero positivo)
-U29tZSBzZWNyZXQgc3RyaW5nIHZhbGlkYXJhLg==
-
-# Hash di password (vero positivo)
-$1$abc123$$W7yCV8/.LqG5a3bgx2kKL1  # MD5
-$2a$12$abc123ABCDEF5LqG5a3bgx2kKLLW7yCV8/.LqG5a3bgx2kKL1 # bcrypt
-
-# Token OAuth (vero positivo)
-xoxb-1234567890-abcdefghijABCDEFGHIJKL
-
-# Falso positivo (normale email)
-arduini37@gmail.com
-
-# Falso positivo (indirizzo IPv4 normale)
-192.168.1.1
-
-# Falso positivo (URL normale)
-http://example.com
-
-# Falso negativo (password offuscata con semplice encoding)
-ZGJfcGFzc3dvcmQ9U3VwZXJTZWNyZXQxMjM=  # db_password=SuperSecret123 (encoded)
-
-# Falso negativo (token JWT non valido)
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
-
-# Token Stripe (vero positivo)
-sk_live_1234567890abcdef12345678
-
-# Token Slack (vero positivo)
-xoxb-1234567890-abcdefghijABCDEFGHIJKL
-
-# Certificato privato (vero positivo)
------BEGIN PRIVATE KEY-----
-MIIBVwIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAm0a4/OaOjBS5e5m8
------END PRIVATE KEY-----
-
-
-# Google OAuth 2.0 Token
-ya29.a0ARrdaM-A1b2C3D4e5F6gHIJKLmnop7QRSTU8VW9X_YZA1b2c3D
-
-# GitHub Personal Access Token (PAT)
+# 2. GitHub Personal Access Token (già rilevato)
 ghp_abcdEFGHijklMNOP1234567890qrstuvWXyz
 
-# AWS Access Key ID and Secret
-AKIAIOSFODNN7EXAMPLE
-wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+# 3. AWS Access Key (aggiunto per testare se viene rilevato)
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
-# Azure Storage Account Key
-AZURE_ACCOUNT_KEY = "Eby8vdMUR4ZJL3/NhFD+04g0A+v1EB2fWqCu1nmiv6/someFakeKey"
+# 4. Azure Storage Account Key (aggiunto per testare se viene rilevato)
+AZURE_STORAGE_KEY=Eby8vdMUR4ZJL3/NhFD+04g0A+v1EB2fWqCu1nmiv6/someFakeKey
 
-# JWT Token (JSON Web Token)
+# 5. JWT Token (aggiunto per testare se viene rilevato)
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 
-# Slack Webhook URL
+# 6. Slack Webhook URL (già rilevato)
 https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
 
-# Private SSH Key (simulata)
+# 7. Private SSH Key (aggiunto per testare se viene rilevato)
 -----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEA7mIYF1+Qpp4rtmUZD/bpP9FwLP7lEyL9a9D+l1VjFZm0sh1p
+vWXY8iZG6tJ38+HFIZabWupDVoX6BbhB9Clt8BOSXqipJ8EU3/T5JSisWGFuym7K
 -----END RSA PRIVATE KEY-----
 
-# Google API Key
+# 8. Google API Key (aggiunto per testare se viene rilevato)
 AIzaSyA-ExampleKey-12345678901234567890abcdef
 
-# Simple Password (Pattern generico)
+# 9. Simple Password (aggiunto per testare se viene rilevato)
 password12345
 
+# 10. Stripe API Key (aggiunto per testare se viene rilevato)
+sk_test_4eC39HqLyjWDarjtT1zdp7dc
