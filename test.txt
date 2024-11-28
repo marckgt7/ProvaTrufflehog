@@ -1,52 +1,20 @@
-# 1. Google OAuth 2.0 Token (già rilevato)
-ya29.a0ARrdaM-A1b2C3D4e5F6gHIJKLmnop7QRSTU8VW9X_YZA1b2c3D
+Detector: aws_access_keys_accesskey_test.go
+  validPattern: aws credentials{
+			id: ABIAS9L8MS5IPHTZPPUQ
+			secret: .v2QPKHl7LcdVYsjaR4LgQiZ1zw3MAnMyiondXC63;
+		}
+  invalidPattern: aws credentials{
+			id: AKIAs9L8MS5iPHTZPPUQ
+			secret: $YenOG.PKHl7LcdVYsjaR4LgQiZ1zw3MAnMyiondXC63;
+		}
 
-# 2. GitHub Personal Access Token (già rilevato)
-ghp_abcdEFGHijklMNOP1234567890qrstuvWXyz
-
-# 3. AWS Access Key (aggiunto per testare se viene rilevato)
-AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
-AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-
-# 4. Azure Storage Account Key (aggiunto per testare se viene rilevato)
-AZURE_STORAGE_KEY=Eby8vdMUR4ZJL3/NhFD+04g0A+v1EB2fWqCu1nmiv6/someFakeKey
-
-# 5. JWT Token (aggiunto per testare se viene rilevato)
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
-
-# 6. Slack Webhook URL (già rilevato)
-https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
-
-# 7. Private SSH Key (aggiunto per testare se viene rilevato)
------BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEA7mIYF1+Qpp4rtmUZD/bpP9FwLP7lEyL9a9D+l1VjFZm0sh1p
-vWXY8iZG6tJ38+HFIZabWupDVoX6BbhB9Clt8BOSXqipJ8EU3/T5JSisWGFuym7K
------END RSA PRIVATE KEY-----
-
-# 8. Google API Key (aggiunto per testare se viene rilevato)
-AIzaSyA-ExampleKey-12345678901234567890abcdef
-
-# 9. Simple Password (aggiunto per testare se viene rilevato)
-password12345
-
-# 10. Stripe API Key (aggiunto per testare se viene rilevato)
-sk_test_4eC39HqLyjWDarjtT1zdp7dc
-
-
-
-Detector: AWS Detector
-  True Positive: AKIAIOSFODNN7EXAMPLE
-  False Positive: AKIAthisisnotavalidkey1234
-
-Detector: SQL Server Detector
-  True Positive: Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;
-  False Positive: Server=myServerAddress;Database=myDataBase;
-
-Detector: GitHub Detector
-  True Positive: ghp_abcdefghijklmnopqrstuvwxyz1234567890
-  False Positive: ghp_notarealtokenhere
-
-Detector: Azure Detector
-  True Positive: DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=mykey;EndpointSuffix=core.windows.net
-  False Positive: DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=invalidkey
-
+Detector: aws_session_keys_sessionkeys_test.go
+  validPattern: aws credentials{
+			id: ASIABBKK02W42Q3IPSPG
+			secret: fkhIiUwQY32Zu9e4a86g9r3WpTzfE1aXljVcgn8O
+			session: >aSqfp/GTZbJP+=tXPNCZ9GoveoM0vgxtlYXdzPQ2uYNMPPgUkt0VT7SoTLasAo7iVqWWREOUC6DEenlcgDEKyzIEgQ=W5Ju/b9K/Z176uD2HJYCfq/lyowHtt5PvJi7LR=uf/urSorGbTcqNUvP=i42YP1Ps/4F6He9hQA1io3EAGBC3ICGHXWf2IlvFoTNUyPTqhjnPEKMWZ42jblqNA=dD7hLpzNXmmGhdLCjy99XK8+gjHdZHkOeD/FIjRPRZ7Jl0tdwdqFEwzRVCzL2uelMVMd3UaZ+d4I4Kf+J464piO//jxx48Fs/mG3zr5ba9m2S+6gvUZJq4j+0uJ+jf6cG/x2G9XSybqYQRwvxfNquKB4TcKiGVH5+ZbJT4ASkARadwoSPMGfvMPje+X2zAziSzXfsxYfIQKf6iJ9p7VavlDGi+Acr4kwFXW5IfQs4uGk6AVQFsoZK3o1hhLOkuOwWQEWhDQGNLXwJbFqXfELOnUQvM0Z5NUm46bjAAi4g+X9gLPNR/KjzXuuTTaWYrQEjXLb7PxS0sIttAb1w+sTXXtc1kDIsABC6KcsyGlEwji5sLkbkUa~
+		}
+  invalidPattern: aws credentials{
+			id: ASIABBKK02W42Q3IPSPG
+			secret: $YenOG.PKHl7LcdVYsjaR4LgQiZ1zw3MAnMyiondXC63;
+		}
